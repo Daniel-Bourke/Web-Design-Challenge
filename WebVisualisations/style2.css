@@ -32,14 +32,21 @@ padding-right:30%;
         width:120%;
       }
     .navbar-nav a.active {
-        background-color: #9b9a9a;
+        background-color: #747474;
         border-radius:30px;
         font-weight: bold;
         
       }
 
-    .dropdown-item{background: none;
-        border-radius: 0px;}
+    .dropdown-menu{background: White;
+        border-radius: 10px;
+        text-align: justify;
+    }
+
+    .dropdown-menu li{
+        text-align: justify;
+        width:300px
+    }
 
     .sidenav {
         height: 100%;
@@ -48,7 +55,7 @@ padding-right:30%;
         z-index: 1;
         top: 1;
         left: 0;
-        background-color: #333333;
+        background-color: #212529;
         overflow-x: hidden;
         
       }
@@ -56,16 +63,26 @@ padding-right:30%;
       .sidenav a {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 16px;
         color: #818181;
         display: block;
+        text-align: center;
+        margin-bottom: 10px;
       }
     
-     img{width:100%}
+     img{width:100%;
+    margin-top: 10px;}
     
       .main {
         margin-left: 20%; /* Same as the width of the sidebar */
         
       }
+
+      .Title{text-align: center;
+        background-color: #a7a7a7;
+        color: black;
+    margin-top: 0%;
+    padding-top:10px;
+    padding-bottom: 10px;}
 
     
