@@ -1,0 +1,71 @@
+html 
+{ 
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+
+.navbar-brand{
+    width:60%;
+    text-align: center;
+    font-style:italic;
+    
+}
+
+ul {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    
+}
+li {
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+    text-align: center;
+padding-right:30%;
+}
+
+    .navbar-nav a {
+        
+        border-radius:30px;
+        height:80%;
+        padding-top:0%;
+        width:120%;
+      }
+    .navbar-nav a.active {
+        background-color: #9b9a9a;
+        border-radius:30px;
+        font-weight: bold;
+        
+      }
+
+    .dropdown-item{background: none;
+        border-radius: 0px;}
+
+    .sidenav {
+        height: 100%;
+        width: 20%;
+        position: fixed;
+        z-index: 1;
+        top: 1;
+        left: 0;
+        background-color: #333333;
+        overflow-x: hidden;
+        
+      }
+    
+      .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+      }
+    
+     img{width:100%}
+    
+      .main {
+        margin-left: 20%; /* Same as the width of the sidebar */
+        
+      }
+
+    
